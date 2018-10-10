@@ -1,0 +1,4 @@
+* Zmodyfikuj plik Euler1.java tak, aby wypisywane na ekran były
+  wyłącznie liczby:
+  - parzyste
+  - nieparzyste
