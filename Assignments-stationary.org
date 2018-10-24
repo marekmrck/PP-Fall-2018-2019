@@ -5,3 +5,7 @@
 * Na podstawie Heron.java
   - Uzależnij ilość operacji, które wykonuje algorytm od pewnej liczby całkowiej n określającej tę ilość.
   - Uzależnij ilość operacji, które wykonuje algorytm od dodatkowego parametru ε dla procedury sqrt.
+* Euler 4
+  https://projecteuler.net/problem=4
+* Euler 5
+  https://projecteuler.net/problem=5
