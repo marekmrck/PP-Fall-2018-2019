@@ -2,4 +2,11 @@
   https://projecteuler.net/problem=4
 * Euler 5
   https://projecteuler.net/problem=5
-*
+* Ciąg Fibonacciego zdefiniowany jest dla liczb naturalnych:
+   fib(0) = 0, fib(1) = 1, fib(n) = fib(n-1) + fib(n-2)
+  - Zrealizuj procedurę fib w-g powyższej definicji i przeanalizuj czasy
+    działania fib(n) dla rosnących wartości n
+  - Zaproponuj rekurencyjną wersję procedury fib,
+    która obliczy fib(50) w czasie poniżej 1ms.
+  - Zaproponuj iteracyjną (z pętlą while) wersję procedury fib,
+    która obliczy fib(50) w czasie poniżej 1ms.
