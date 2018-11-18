@@ -10,3 +10,8 @@
     która obliczy fib(50) w czasie poniżej 1ms.
   - Zaproponuj iteracyjną (z pętlą while) wersję procedury fib,
     która obliczy fib(50) w czasie poniżej 1ms.
+* Mając daną klasę Complex będącą reprezentacją liczb zespolonych
+  - Zrealizuj brakujące operatory -, *, /
+  - Zrealizuj operator sprzężenia
+  - Zaproponuj przejście na postać polarną liczby zespolonej, określając
+    strukturę klasy oraz operatory modulus/argument (angle)
