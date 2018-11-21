@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="301e232d-42c3-4e24-b6d0-8c8c01d6bc6a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/nonstattionary/math/Complex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nonstattionary/math/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nonstattionary/leck20181118/TestVector3D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nonstattionary/leck20181118/Vector3D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nonstattionary/math/Cplx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nonstattionary/math/TestCplx.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments-non-stationary.org" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments-non-stationary.org" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,41 +19,60 @@
     <session id="-735577544">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.10" value="1" />
-          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.7" value="3" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="6" />
+          <entry key="java" value="11" />
           <entry key="org" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="6" />
+          <entry key="JAVA" value="11" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1829" />
+          <entry key="java" value="2618" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1829" />
+          <entry key="JAVA" value="2618" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/nonstattionary/leck20181118/Vector3D.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="403">
+              <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/nonstattionary/leck20181118/TestVector3D.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -74,14 +94,17 @@
         <option value="$PROJECT_DIR$/src/stationary/lect20181107/Tabs.java" />
         <option value="$PROJECT_DIR$/src/nonstattionary/math/Complex.java" />
         <option value="$PROJECT_DIR$/src/nonstattionary/math/Program.java" />
+        <option value="$PROJECT_DIR$/src/nonstattionary/math/Cplx.java" />
+        <option value="$PROJECT_DIR$/src/nonstattionary/math/TestCplx.java" />
+        <option value="$PROJECT_DIR$/src/nonstattionary/leck20181118/TestVector3D.java" />
+        <option value="$PROJECT_DIR$/src/nonstattionary/leck20181118/Vector3D.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1" />
     <option name="y" value="25" />
-    <option name="width" value="1022" />
-    <option name="height" value="769" />
+    <option name="width" value="1011" />
+    <option name="height" value="770" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -107,8 +130,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -127,14 +148,23 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="nonstattionary" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="PP-Fall-2018-2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PP-Fall-2018-2019" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="nonstattionary" type="462c0819:PsiDirectoryNode" />
+              <item name="leck20181118" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542535157685" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542555813072" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
@@ -154,39 +184,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Program">
+  <component name="RunManager" selected="Application.TestVector3D">
     <configuration name="Fib" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="stationary.lect20181031.Fib" />
       <module name="PP-Fall-2018-2019" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="stationary.lect20181031.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Peano (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="nonstattionary.lect20181028.Peano" />
-      <module name="PP-Fall-2018-2019" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="nonstattionary.lect20181028.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Peano" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stationary.lect20181024.Peano" />
-      <module name="PP-Fall-2018-2019" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="stationary.lect20181024.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -220,20 +224,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestCplx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="nonstattionary.math.TestCplx" />
+      <module name="PP-Fall-2018-2019" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="nonstattionary.math.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestVector3D" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="nonstattionary.leck20181118.TestVector3D" />
+      <module name="PP-Fall-2018-2019" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="nonstattionary.leck20181118.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.Peano" />
-      <item itemvalue="Application.Peano (1)" />
       <item itemvalue="Application.Fib" />
       <item itemvalue="Application.Tabs" />
       <item itemvalue="Application.Program" />
+      <item itemvalue="Application.TestCplx" />
+      <item itemvalue="Application.TestVector3D" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestVector3D" />
+        <item itemvalue="Application.TestCplx" />
         <item itemvalue="Application.Program" />
         <item itemvalue="Application.Tabs" />
         <item itemvalue="Application.Fib" />
-        <item itemvalue="Application.Peano (1)" />
-        <item itemvalue="Application.Peano" />
       </list>
     </recent_temporary>
   </component>
@@ -260,9 +290,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="25" width="1022" height="769" extended-state="0" />
+    <frame x="0" y="25" width="1011" height="770" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1899384" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.27432713" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -272,7 +302,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32917318" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.5694228" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.43925235" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32917318" />
@@ -328,7 +358,22 @@
           <properties />
           <option name="timeStamp" value="6" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/nonstattionary/math/TestCplx.java</url>
+          <line>6</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/nonstattionary/leck20181118/TestVector3D.java</url>
+          <line>6</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
       </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -369,10 +414,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
           <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
-          <folding>
-            <element signature="e#97#98#0" expanded="true" />
-            <element signature="e#126#127#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -392,8 +433,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/nonstattionary/math/Complex.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" selection-start-line="12" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nonstattionary/math/TestCplx.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nonstattionary/math/Cplx.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nonstattionary/leck20181118/TestVector3D.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nonstattionary/leck20181118/Vector3D.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
         </state>
       </provider>
     </entry>
