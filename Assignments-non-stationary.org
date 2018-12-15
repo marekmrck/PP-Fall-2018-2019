@@ -15,3 +15,8 @@
   - Zrealizuj operator sprzężenia
   - [*] Zaproponuj przejście na postać polarną liczby zespolonej, określając
     strukturę klasy oraz operatory modulus/argument (angle)
+* Napisz procedurę, która oblicza wartość iloczynu skalarnego 2 wektorów
+  Wektory mają być reprezentowane w postaci tablic.
+* Napisz procedurę, która realizuje rzutowanie wektora a na wektor b.
+  Reprezentacja wektorów ma być zrealizowana w postaci tablic.
+* Napisz procedurę, która realizuje iloczyn wektorowy wektorów a i b.
